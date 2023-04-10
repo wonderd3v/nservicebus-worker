@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Worker\\Intoku.Checkout.Worker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Stripe\\Intoku.Checkout.Stripe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Stripe\\Intoku.Checkout.Stripe.csproj",
+        "projectName": "Intoku.Checkout.Stripe",
+        "projectPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Stripe\\Intoku.Checkout.Stripe.csproj",
+        "packagesPath": "C:\\Users\\Hmexs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Stripe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hmexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/solvexdominicana/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Worker\\Intoku.Checkout.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Worker\\Intoku.Checkout.Worker.csproj",
+        "projectName": "Intoku.Checkout.Worker",
+        "projectPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Worker\\Intoku.Checkout.Worker.csproj",
+        "packagesPath": "C:\\Users\\Hmexs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hmexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/solvexdominicana/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Stripe\\Intoku.Checkout.Stripe.csproj": {
+                "projectPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\Intoku.Checkout.Stripe\\Intoku.Checkout.Stripe.csproj"
+              },
+              "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\SharedContracts\\SharedContracts.csproj": {
+                "projectPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\SharedContracts\\SharedContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )"
+            },
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\SharedContracts\\SharedContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\SharedContracts\\SharedContracts.csproj",
+        "projectName": "SharedContracts",
+        "projectPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\SharedContracts\\SharedContracts.csproj",
+        "packagesPath": "C:\\Users\\Hmexs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hmexs\\OneDrive\\Escritorio\\Intoku.Checkout\\SharedContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hmexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/solvexdominicana/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

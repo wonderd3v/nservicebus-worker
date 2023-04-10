@@ -1,0 +1,7 @@
+{
+    "profiles": {
+        "Intoku.Checkout.Worker": {
+            "commandName": "Project"
+        }
+    }
+}
